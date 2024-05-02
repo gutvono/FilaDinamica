@@ -31,10 +31,10 @@
             return head == null && tail == null;
         }
 
-        public void Print()
+        public void RunOver()
         {
             Pessoa aux = this.head;
-            if (aux == null) Console.WriteLine("Lista vazia.");
+            if (aux == null) Console.WriteLine("Fila vazia.");
             while (aux != null) {
                 Console.WriteLine(aux.Print());
                 aux = aux.GetNext();

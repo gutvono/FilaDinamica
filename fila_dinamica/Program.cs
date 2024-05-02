@@ -10,14 +10,26 @@ internal class Program
 
         filaPessoa.Push(new("Odair"));
         filaPessoa.Push(new("Gustavo"));
+
+        filaPessoa.RunOver();
+        Console.WriteLine();
+
         filaPessoa.Push(new("Guilherme"));
         filaPessoa.Push(new("Tio Paulo"));
 
-        filaPessoa.Pop();
-        filaPessoa.Pop();
+        filaPessoa.RunOver();
+        Console.WriteLine();
+
         filaPessoa.Pop();
         filaPessoa.Pop();
 
-        filaPessoa.Print();
+        filaPessoa.RunOver();
+        Console.WriteLine();
+
+        filaPessoa.Pop();
+        filaPessoa.Pop();
+
+        filaPessoa.RunOver();
+        Console.WriteLine();
     }
 }
